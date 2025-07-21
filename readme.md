@@ -1,0 +1,1 @@
+I'm creating this landingpage to learn how to code. Now I know some HTML CSS and flexbox.
