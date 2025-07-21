@@ -1,0 +1,25 @@
+body {
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.top {
+    background-color: #1f2937;
+    color: #F9Faf8;
+}
+
+.quotesection {
+    background-color: #E5E7EB;
+}
+
+.footer {
+    background-color: #1f2937;
+    color: #F9Faf8;
+}
+
+
+img {
+    width: 300px;
+    height: auto;
+}
