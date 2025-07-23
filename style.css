@@ -43,6 +43,7 @@ ul {
     font-size: 18px;
     color: #E5E7EB;
     margin-left: 1em;
+    white-space: nowrap;
 }
 
 .hero {
@@ -50,6 +51,7 @@ ul {
     flex-direction: row;
     flex-wrap: nowrap;
     padding: 24px;
+    padding-top: 0px;
     gap: 1.5em;
 }
 
@@ -96,15 +98,158 @@ img {
     font-weight: bold;
 }
 
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em;
+    padding-top: 0px;
+    min-width: 687px;
+}
+
+.info-header {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    white-space: nowrap;
+}
+
+.info-boxes {
+    display: flex;
+    flex-direction: row;
+    max-width: 900px;
+    align-content: center;
+    gap: 1em;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  padding: 20px;
+  border: 3px #3882f6 solid;
+  border-radius: 10px;
+}
+
+.subtext {
+    text-align: center;
+    font-size: 18px;
+    color: #565e6a;
+}
 
 
 .quotesection {
     background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    padding: 2em;
+    padding-top: 4em;
+    padding-bottom: 3em;
+    align-items: center;
+    min-width: 100vh;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;  
+    font-weight: 300;
+    color: #1F2937;
+    max-width: 1000px;
+    margin-bottom: 0px;
+    margin-top: 0;
+    min-width: 940px;
+}
+
+.quoteauthorbox {
+    flex: 1;
+    align-self: flex-end;
+    margin-top: 0;
+}
+
+.quoteauthor {
+    display: flex;
+    flex-direction: column;
+    text-align: end;
+    font-size: 23px;
+    font-weight: 800;
+}
+
+.cta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.ctablock {
+    flex-grow: 0;
+    width: 800px;
+    height: 100px;
+    padding: 1em;
+    background-color: #3882f6;
+    border-radius: 1em;
+    margin: 2em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.ctaright {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.secondsignup {
+    border: #F9Faf8 solid 3px;
+    border-radius: 10px;
+    background-color:#3882f6;
+    width: 10em;
+    height: 3em;
+    color: #F9FAF8;
+    font-size: 15px;
+    font-weight: bold;
+    margin-right: 1em;
+}
+
+.ctaleft {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 7px;
+    padding: 20px;
+}
+
+.ctaleftheader {
+    font-size: 23px;
+    font-weight: 600;
+    color: #F9FAF8;
+}
+
+.ctalefttext {
+    color:#F9FAF8;
 }
 
 .footer {
     background-color: #1f2937;
     color: #F9Faf8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footertext {
+    color: #b0b2b5;
 }
 
 .info, .quotesection, .cta {
